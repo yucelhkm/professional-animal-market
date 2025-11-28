@@ -3,8 +3,6 @@ name: Android Build and APK
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   build:
@@ -20,14 +18,16 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         
-    - name: Setup Android SDK
+    - name: Setup Android environment
       uses: android-actions/setup-android@v3
       
-    - name: Build with Gradle
-      uses: gradle/gradle-build-action@v2
-      with:
-        arguments: build
-        build-root-directory: app
+    - name: Build APK with direct Gradle
+      run: |
+        cd app
+        gradle assembleDebug --no-daemon
+        
+    - name: Check if APK exists
+      run: find . -name "*.apk" -type f
         
     - name: Upload APK
       uses: actions/upload-artifact@v4
