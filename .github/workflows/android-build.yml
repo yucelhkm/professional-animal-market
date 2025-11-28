@@ -20,13 +20,14 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         
-    - name: Make gradlew executable
-      run: chmod +x ./gradlew
-        
-    - name: Build APK
-      run: |
-        cd app
-        ../gradlew assembleDebug
+    - name: Setup Android SDK
+      uses: android-actions/setup-android@v3
+      
+    - name: Build with Gradle
+      uses: gradle/gradle-build-action@v2
+      with:
+        arguments: build
+        build-root-directory: app
         
     - name: Upload APK
       uses: actions/upload-artifact@v4
