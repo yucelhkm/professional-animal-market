@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">Profesyonel Hayvan Pazarı</string>
+    <string name="app_description">Güvenilir Hayvan Alışveriş Platformu</string>
+
+    <!-- Common -->
+    <string name="welcome">Hoş Geldiniz</string>
+    <string name="loading">Yükleniyor...</string>
+    <string name="error">Hata</string>
+    <string name="success">Başarılı</string>
+    <string name="save">Kaydet</string>
+    <string name="cancel">İptal</string>
+    <string name="delete">Sil</string>
+    <string name="edit">Düzenle</string>
+    <string name="submit">Gönder</string>
+
+    <!-- User Roles -->
+    <string name="role_user">Kullanıcı</string>
+    <string name="role_veterinarian">Veteriner</string>
+    <string name="role_admin">Yönetici</string>
+
+    <!-- Login Buttons -->
+    <string name="user_login">Kullanıcı Girişi</string>
+    <string name="vet_login">Veteriner Girişi</string>
+    <string name="admin_login">Yönetici Girişi</string>
+
+    <!-- Animal Types -->
+    <string name="animal_cattle">Sığır</string>
+    <string name="animal_sheep">Koyun</string>
+    <string name="animal_goat">Keçi</string>
+    <string name="animal_chicken">Tavuk</string>
+    <string name="animal_horse">At</string>
+    <string name="animal_duck">Ördek</string>
+    <string name="animal_turkey">Hindi</string>
+    <string name="animal_other">Diğer</string>
+
+    <!-- Genders -->
+    <string name="gender_male">Erkek</string>
+    <string name="gender_female">Dişi</string>
+
+    <!-- Listing Status -->
+    <string name="status_draft">Taslak</string>
+    <string name="status_pending_vet">Veteriner İncelemesi</string>
+    <string name="status_vet_approved">Veteriner Onaylı</string>
+    <string name="status_vet_rejected">Veteriner Reddetti</string>
+    <string name="status_pending_admin">Yönetici İncelemesi</string>
+    <string name="status_admin_approved">Yönetici Onaylı</string>
+    <string name="status_admin_rejected">Yönetici Reddetti</string>
+    <string name="status_published">Yayında</string>
+    <string name="status_expired">Süresi Dolmuş</string>
+
+    <!-- Form Labels -->
+    <string name="label_animal_name">Hayvan Adı</string>
+    <string name="label_animal_type">Hayvan Türü</string>
+    <string name="label_breed">Irk</string>
+    <string name="label_age">Yaş (Ay)</string>
+    <string name="label_gender">Cinsiyet</string>
+    <string name="label_weight">Ağırlık (kg)</string>
+    <string name="label_price">Fiyat</string>
+    <string name="label_location">Konum</string>
+    <string name="label_address">Adres</string>
+    <string name="label_description">Açıklama</string>
+    <string name="label_photos">Fotoğraflar</string>
+
+    <!-- Messages -->
+    <string name="msg_welcome">Hayvan Pazarı\'na hoş geldiniz!</string>
+    <string name="msg_select_role">Lütfen giriş yapmak için rolünüzü seçin</string>
+    <string name="msg_listing_created">İlan başarıyla oluşturuldu</string>
+    <string name="msg_sent_to_vet">Veteriner incelemesine gönderildi</string>
+    <string name="msg_sent_to_admin">Yönetici incelemesine gönderildi</string>
+    <string name="msg_approved">Onaylandı</string>
+    <string name="msg_rejected">Reddedildi</string>
+
+    <!-- Errors -->
+    <string name="error_required">Bu alan zorunludur</string>
+    <string name="error_invalid_email">Geçersiz email adresi</string>
+    <string name="error_network">Ağ hatası</string>
+    <string name="error_login">Giriş başarısız</string>
+
+    <!-- Filter Labels -->
+    <string name="filter_by_type">Türe Göre Filtrele</string>
+    <string name="filter_by_breed">Irka Göre Filtrele</string>
+    <string name="filter_by_gender">Cinsiyete Göre Filtrele</string>
+    <string name="filter_by_location">Konuma Göre Filtrele</string>
+    <string name="filter_by_price">Fiyata Göre Filtrele</string>
+    <string name="filter_apply">Filtrele</string>
+    <string name="filter_clear">Temizle</string>
+</resources>
